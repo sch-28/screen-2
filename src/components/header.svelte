@@ -1,16 +1,14 @@
 <script>
+	import { page } from '$app/stores';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
+	import { ComputerDesktop } from 'svelte-heros-v2';
 </script>
 
 <Navbar let:hidden let:toggle>
 	<NavBrand href="/">
-		<img
-			src="https://flowbite.com/docs/images/logo.svg"
-			class="mr-3 h-6 sm:h-9"
-			alt="Flowbite Logo"
-		/>
-		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-			Flowbite
+		<ComputerDesktop />
+		<span class="ml-2 self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+			Screen
 		</span>
 	</NavBrand>
 	<button
@@ -36,8 +34,10 @@
 		>
 	</button>
 	<NavUl {hidden}>
-		<NavLi href="/" active={true}>Home</NavLi>
-		<NavLi href="/about">Record</NavLi>
-		<NavLi href="/services">Documentation</NavLi>
+		<NavLi href="/" active={$page.url.pathname === '/'}>Home</NavLi>
+		<NavLi href="/record" active={$page.url.pathname === '/record'}>Record</NavLi>
+		<NavLi href="/documentation" active={$page.url.pathname === '/documentation'}
+			>Documentation</NavLi
+		>
 	</NavUl>
 </Navbar>
