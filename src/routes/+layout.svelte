@@ -3,7 +3,7 @@
 	import '../app.postcss';
 </script>
 
-<div class="bg-white dark:bg-gray-800 w-full h-full">
+<div class="bg-white dark:bg-gray-800 w-full h-full flex flex-col">
 	<Header />
 	<slot />
 </div>

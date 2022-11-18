@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { Heading } from 'flowbite-svelte';
 	export let status = 200;
 	export let message = 'ok';
 
@@ -11,15 +12,6 @@
 	}
 </script>
 
-<div class="error">
-	<h1>{status}: {message}</h1>
+<div class="m-auto">
+	<Heading tag="h1">{status}: {message}</Heading>
 </div>
-
-<style>
-	.error {
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-</style>
