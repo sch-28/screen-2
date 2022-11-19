@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-9c0eeee7.js",
+    "file": "_app/immutable/start-f940c70a.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-8fb7427f.js",
-      "_singletons-0a6f77e7.js"
+      "_singletons-112cf174.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -15,12 +15,12 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-69cc330f.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-5e246783.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-8fb7427f.js",
-      "_stores-051e919c.js",
+      "_stores-1e93d1a1.js",
       "_Indicator.svelte_svelte_type_style_lang-75445948.js",
       "_DiGithubBadge-4f12c23e.js"
     ],
@@ -29,12 +29,12 @@
     ]
   },
   "src/routes/+error.svelte": {
-    "file": "_app/immutable/components/pages/_error.svelte-23d818ce.js",
+    "file": "_app/immutable/components/pages/_error.svelte-32799039.js",
     "src": "src/routes/+error.svelte",
     "isEntry": true,
     "imports": [
       "_index-8fb7427f.js",
-      "_stores-051e919c.js",
+      "_stores-1e93d1a1.js",
       "_Indicator.svelte_svelte_type_style_lang-75445948.js",
       "_Heading-1becadb6.js"
     ]
@@ -72,8 +72,8 @@
       "__layout-1daba58d.js"
     ]
   },
-  "_singletons-0a6f77e7.js": {
-    "file": "_app/immutable/chunks/singletons-0a6f77e7.js",
+  "_singletons-112cf174.js": {
+    "file": "_app/immutable/chunks/singletons-112cf174.js",
     "imports": [
       "_index-8fb7427f.js"
     ]
@@ -81,11 +81,11 @@
   "_index-8fb7427f.js": {
     "file": "_app/immutable/chunks/index-8fb7427f.js"
   },
-  "_stores-051e919c.js": {
-    "file": "_app/immutable/chunks/stores-051e919c.js",
+  "_stores-1e93d1a1.js": {
+    "file": "_app/immutable/chunks/stores-1e93d1a1.js",
     "imports": [
       "_index-8fb7427f.js",
-      "_singletons-0a6f77e7.js"
+      "_singletons-112cf174.js"
     ]
   },
   "_Indicator.svelte_svelte_type_style_lang-75445948.js": {
@@ -121,7 +121,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-3dae45f9.js",
+    "file": "_app/immutable/chunks/0-9e9711a6.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -130,7 +130,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-f77f4e74.js",
+    "file": "_app/immutable/chunks/1-1bf42b21.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -153,10 +153,6 @@
       "src/routes/record/+page.svelte"
     ]
   },
-  "DiGithubBadge.css": {
-    "file": "_app/immutable/assets/DiGithubBadge-d93538e2.css",
-    "src": "DiGithubBadge.css"
-  },
   "src/routes/record/+page.css": {
     "file": "_app/immutable/assets/_page-90437b42.css",
     "src": "src/routes/record/+page.css"
@@ -164,6 +160,10 @@
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-a3db6d17.css",
     "src": "src/routes/+layout.css"
+  },
+  "DiGithubBadge.css": {
+    "file": "_app/immutable/assets/DiGithubBadge-d93538e2.css",
+    "src": "DiGithubBadge.css"
   },
   "Indicator.css": {
     "file": "_app/immutable/assets/Indicator-1d121e74.css",
