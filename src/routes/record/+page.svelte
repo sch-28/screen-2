@@ -270,7 +270,7 @@
 {/if}
 <!-- ${stream ? 'flex' : 'hidden'} -->
 <div
-	class={`h-full w-full  flex flex-col items-center justify-center  ${stream ? 'flex' : 'hidden'}`}
+	class={`h-full w-full  m-auto flex flex-col items-center justify-center  ${stream ? 'flex' : 'hidden'}`}
 	bind:this={wrapper}
 >
 	<div class="overflow-auto  max-w-[85%]  max-h-[85%] drop-shadow-md">

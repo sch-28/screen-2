@@ -5,7 +5,11 @@ const config = {
 	],
 
 	theme: {
-		extend: {},
+		extend: {
+			screens: {
+				'1.5xl': '1400px'
+			}
+		}
 	},
 
 	plugins: [require('flowbite/plugin')],

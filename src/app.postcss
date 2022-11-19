@@ -6,26 +6,22 @@
 html,
 body {
 	height: 100%;
-	width: 100;
+	min-height: 100%;
+	width: 100%;
 }
 
 :root {
+	@apply bg-white dark:bg-gray-800 bg-gradient-to-r to-fuchsia-500/5 from-sky-400/5;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
-
-}
-
-h1 {
-	font-size: 2.5rem;
 }
