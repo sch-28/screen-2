@@ -2,6 +2,7 @@
 	import { Heading, P, Button } from 'flowbite-svelte';
 	import { CheckBadge, FingerPrint, Square2Stack } from 'svelte-heros-v2';
 	import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div class="px-4">
@@ -18,7 +19,7 @@
 			</P>
 			<div class="flex  gap-4 justify-center align-middle">
 				<Button
-					href="/record"
+					href="{base}/record"
 					btnClass="w-full sm:w-fit text-center font-medium focus:ring-4 inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg"
 					>Start Recording
 					<svg
@@ -111,7 +112,7 @@
 				</div>
 			</div>
 			<Button
-				href="/record"
+				href="{base}/record"
 				btnClass="w-full sm:w-fit text-center font-medium focus:ring-4 inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg mt-8"
 				>Start Recording
 				<svg

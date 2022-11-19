@@ -2,10 +2,11 @@
 	import { page } from '$app/stores';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
 	import { ComputerDesktop } from 'svelte-heros-v2';
+	import { base } from '$app/paths';
 </script>
 
 <Navbar let:hidden let:toggle id="header" color="none">
-	<NavBrand href="/" class="text-gray-500 dark:text-white">
+	<NavBrand href="{base}/" class="text-gray-500 dark:text-white">
 		<ComputerDesktop />
 		<span class="ml-2 self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 			Screen
@@ -34,9 +35,9 @@
 		>
 	</button>
 	<NavUl {hidden}>
-		<NavLi href="/" active={$page.url.pathname === '/'}>Home</NavLi>
-		<NavLi href="/record" active={$page.url.pathname === '/record'}>Record</NavLi>
-		<!-- <NavLi href="/documentation" active={$page.url.pathname === '/documentation'}
+		<NavLi href="{base}/" active={$page.url.pathname === '/'}>Home</NavLi>
+		<NavLi href="{base}/record" active={$page.url.pathname === '/record'}>Record</NavLi>
+		<!-- <NavLi href="{base}/documentation" active={$page.url.pathname === '/documentation'}
 			>Documentation</NavLi
 		> -->
 	</NavUl>
