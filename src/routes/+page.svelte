@@ -61,7 +61,7 @@
 		</svg>
 	</section>
 
-	<section>
+	<section class="1.5xl:h-[100vh] 1.5xl:mb-0 mb-12">
 		<div class="text-center relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32 p-5">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
