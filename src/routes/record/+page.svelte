@@ -135,7 +135,7 @@
 		);
 
 		if (mouse_down) {
-			ctx.strokeStyle = '#2196f3';
+			ctx.strokeStyle = 'rgb(28, 100, 242)';
 			ctx.lineWidth = 5;
 			ctx.strokeRect(
 				selection.x_1,
