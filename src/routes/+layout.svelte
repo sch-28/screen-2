@@ -5,5 +5,7 @@
 
 <div class="bg-white dark:bg-gray-800 w-full h-full flex flex-col">
 	<Header />
-	<slot />
+	<div class="w-full h-full flex flex-col ">
+		<slot />
+	</div>
 </div>

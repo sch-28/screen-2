@@ -4,7 +4,7 @@
 	import { ComputerDesktop } from 'svelte-heros-v2';
 </script>
 
-<Navbar let:hidden let:toggle>
+<Navbar let:hidden let:toggle id="header">
 	<NavBrand href="/">
 		<ComputerDesktop />
 		<span class="ml-2 self-center whitespace-nowrap text-xl font-semibold dark:text-white">
