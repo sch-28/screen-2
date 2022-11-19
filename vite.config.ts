@@ -3,7 +3,7 @@ import type { UserConfig } from 'vite';
 
 const config: UserConfig = {
 	plugins: [sveltekit()],
-	base: './'
+	base: '/screen-2'
 };
 
 export default config;

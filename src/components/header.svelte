@@ -5,7 +5,7 @@
 </script>
 
 <Navbar let:hidden let:toggle id="header" color="none">
-	<NavBrand href="/">
+	<NavBrand href="/" class="text-gray-500 dark:text-white">
 		<ComputerDesktop />
 		<span class="ml-2 self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 			Screen
