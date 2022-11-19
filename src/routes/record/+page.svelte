@@ -277,7 +277,7 @@
 		<canvas bind:this={canvas} class="w-full" />
 	</div>
 	<div
-		class="mt-3 flex justify-between   items-center dark:bg-gray-900/50 rounded  px-3 py-1 max-w-2xl min-w-min drop-shadow-md"
+		class="mt-3 flex justify-between   items-center dark:bg-gray-500/20 rounded  px-3 py-1 max-w-2xl min-w-min drop-shadow-md"
 		bind:this={controls}
 	>
 		<!-- <Button pill size="sm"><Play variation="solid" size="24" /></Button> -->
