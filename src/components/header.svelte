@@ -36,8 +36,8 @@
 	<NavUl {hidden}>
 		<NavLi href="/" active={$page.url.pathname === '/'}>Home</NavLi>
 		<NavLi href="/record" active={$page.url.pathname === '/record'}>Record</NavLi>
-		<NavLi href="/documentation" active={$page.url.pathname === '/documentation'}
+		<!-- <NavLi href="/documentation" active={$page.url.pathname === '/documentation'}
 			>Documentation</NavLi
-		>
+		> -->
 	</NavUl>
 </Navbar>
