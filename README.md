@@ -1,6 +1,6 @@
 # Screen Recorder 2
 Improved version of [screen](https://github.com/sch-28/screen).  
-Try it out at: INSERT LINK
+Try it out at: https://sch-28.github.io/screen-2/
 
 ## Self hosting
 ```
