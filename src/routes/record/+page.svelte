@@ -261,7 +261,7 @@
 </script>
 
 {#if !stream}
-	<div class="text-center m-auto">
+	<div class="text-center m-auto pb-20">
 		<P align="center" class="mb-6 text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
 			>Select a source and start recording!</P
 		>
@@ -277,7 +277,7 @@
 		<canvas bind:this={canvas} class="w-full" />
 	</div>
 	<div
-		class="mt-3 flex justify-between   items-center dark:bg-gray-900 rounded  px-3 max-w-2xl min-w-min drop-shadow-md"
+		class="mt-3 flex justify-between   items-center dark:bg-gray-900/50 rounded  px-3 py-1 max-w-2xl min-w-min drop-shadow-md"
 		bind:this={controls}
 	>
 		<!-- <Button pill size="sm"><Play variation="solid" size="24" /></Button> -->

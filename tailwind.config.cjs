@@ -6,10 +6,6 @@ const config = {
 
 	theme: {
 		extend: {},
-		textColor: {
-			white: 'rgba(255, 255, 255, 0.87)',
-			dark: 'rgba(0, 0, 0, 0.87)'
-		}
 	},
 
 	plugins: [require('flowbite/plugin')],

@@ -32,6 +32,7 @@
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-heros-v2": "^0.2.4",
+		"svelte-icons": "^2.1.0",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.5",
 		"tslib": "^2.3.1",
